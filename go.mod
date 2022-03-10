@@ -1,8 +1,3 @@
-module github.com/codefresh-contrib/helm-promotion-sample-app
+module github.com/kostis-codefresh/gitops-promotion-source-code
 
-go 1.13
-
-require (
-	github.com/smartystreets/goconvey v1.6.4 // indirect
-	gopkg.in/ini.v1 v1.62.0
-)
+go 1.17
