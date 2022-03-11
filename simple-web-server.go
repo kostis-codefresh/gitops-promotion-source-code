@@ -50,7 +50,7 @@ func healthHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 
 	clh := configurationListHandler{}
-	clh.version = "1.0"
+	clh.version = "2.0"
 	clh.environment = os.Getenv("ENV")
 	clh.environment_type = os.Getenv("ENV_TYPE")
 	clh.region = os.Getenv("REGION")
